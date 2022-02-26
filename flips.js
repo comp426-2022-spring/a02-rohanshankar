@@ -3,9 +3,9 @@ import minimist from "minimist";
 
 const args = minimist(process.argv.slice(2));
 args['number']
-const num = args.number || 1;
+const tosses = args.number || 1;
 
-var output1 = defaultExport.coinFlips(num); 
+var output1 = defaultExport.coinFlips(tosses); 
 var output2 = defaultExport.countFlips(output1); 
 
 console.log(output1);
