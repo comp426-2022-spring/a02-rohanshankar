@@ -5,7 +5,7 @@ const args = minimist(process.argv.slice(2));
 args['call']
 const guess = args.call; 
 
-if (call == "tails" || call == "heads") {
+if (guess == "tails" || guess == "heads") {
     var output1 = defaultExport.flipACoin(guess); 
     console.log(output1); 
 } else {
